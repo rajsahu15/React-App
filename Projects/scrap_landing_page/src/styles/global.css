@@ -1,0 +1,26 @@
+:root {
+    --primary: #0F0E47;
+    --secondary: #272757;
+    --accent: #505081;
+    --light: #8686AC;
+    --text: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary);
+    color: var(--text);
+}
+section {
+    padding-top: 80px;
+}
+
+.btn {
+    background: var(--accent);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
